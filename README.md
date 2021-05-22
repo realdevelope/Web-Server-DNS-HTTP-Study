@@ -10,4 +10,5 @@
 4. HTTP의 개념 -생활코딩 - 31분
 
 ## 학습완성본(미리보기)
- <img src="./image/screen.png"></img>
+![screen](https://user-images.githubusercontent.com/48710889/119209193-510a4400-bae0-11eb-8818-961b8fea4ead.PNG)
+
