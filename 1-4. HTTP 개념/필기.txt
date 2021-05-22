@@ -1,0 +1,29 @@
+<12/1(화)> - 처음부터 다시 공부
+
+4. 생활코딩 - HTTP의 개념
+
+ -HTTP : Hyper Text Transfer Protocol
+  ->서버와 클라이언트가 서로 Request Response 하는것
+  ->HTTP 는 웹브라우저(Client)와 서버(Server)간의 웹페이지같은 자원을 주고 받을 때 쓰는 통신 규약
+ -HTTPS (Hyper Text Transfer Protocol Secuere)
+  인터넷 상에서 정보를 암호화하는 SSL(Secure Socket Layer)프로토콜을 이용하여 웹브라우저(클라이언트)와 서버가 데이터를 주고 받는 통신 규약
+  Request
+  ->개발자도구 -> 네트워크 ->header ->Request Headers 부분 
+      GET - 가져오는방식
+      1.html - 웹서버에서 요청하는것이 무엇인지 응답
+      HTTP/1.1 - 현재 사용하고있는 http의 버전
+      Host : localhost:8080 - 요청하는 웹사이트의 주소
+      accept-Encoding : gzip, deflate, br - 압축형식
+   Response
+   ->???????????????????????? 집에가서 한번더 보기!!!!
+
+   
+ (알아볼만한 키워드)
+ -cache
+  저장된 파일을 읽어서 성능을 향상시키는 것
+ -cache-control 
+ -pragma
+ -cookie
+ -web stroge
+ -proxy
+ -network 기능 사용법숙지

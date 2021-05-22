@@ -1,0 +1,57 @@
+<12/1(화)> - 처음부터 다시 공부
+
+1. 생활코딩 - HTML의 개념
+ 
+ -HTML(HyperTextMarkupLanguage)
+ -쉬워서 html은 20분만에 끝난다
+ -태그 
+  #<h1>~<h6> : 제목
+  #<strong></strong> : 진하게
+ -속성
+ #<a> : 링크
+ <a href="https://www.naver.com">에서 href같은것
+ 속성의 순서는 상관없음
+ <a href="https://www.naver.com" target="_blank" title="전설적인 프로그래머">
+ #<li> : 리스트
+ #<ul> : 순서없는 리스트 
+ #<ol> : 순서있는 리스트
+ 태그의 중첩가능 <ul><li></li></ul>
+	          <ol><li></li></ol>
+ -html의 형식(구조)
+ <html>
+ <head>
+ </head>
+ <body>
+ </body>
+ </html>
+
+ -간단한 페이지 전환 웹페이지 만들기
+ -구글 디벨로퍼에서 html 태그 사용순 그래프 및 퍼센트 
+ #<p></p> : 문단 태그
+ #<br> : enter기능( 줄띄우기)
+ # <img></img> : 이미지 
+   -> <img src = "img.jpg" alt ="산이미지">
+        src : 이미지 위치 / alt : 이미지깨졌을때 대체텍스트
+ #<table></table> : 표
+   <tr></tr> : 행
+   <td></td> : 열
+   ex) <table>
+           <tr>
+               <td>이름</td><td>성별</td><td>주소</td>
+          </tr>
+          <tr>
+	  <td>이름</td><td>성별</td><td>주소</td>
+          </tr>
+          <tr>
+ 	  <td>이름</td><td>성별</td><td>주소</td>
+          </tr>           	  
+ -테이블 병합
+   ->rowspan 행병합
+     ex) <td rowspan ="3"></td>
+   ->colspan 열병합
+     ex) <td colspan = "3"></td>
+#<input> : 입력박스
+  ex) <input type = "text">
+       <input type ="submit"> : 입력박스가아니라 제출버튼!!
+#<form></form>
+  

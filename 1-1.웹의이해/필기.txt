@@ -1,0 +1,73 @@
+<12/1(화)> -처음부터 다시 공부
+
+1. 생활코딩 - html & internet
+
+-html (hyper text markup language)
+ #public domain
+-기본태그
+ #<strong></strong>  : 진하게 
+ #<u></u> : 밑줄
+ (w3c)
+ #<h1> ~ <h6> : 제목(숫자가 적을수록 크기가 큼)
+ (보통 한 웹페이지에 평균적으로 25~26개 가지고있다)
+ #head > body > html > title > meta > div > a > script > link > img 
+  > span > li > ul > br >style > h1 > h2 > input > form > strong 
+  > h3 > table > tr > td
+ (공부할떄 통계에 기반해서 공부해라)
+ #<br> : 줄바꿈 (html new line tag)
+ #<p> : 문단 (html paragraph tag)
+ #<img> : 이미지 삽입   
+ #<oi> : 순서있는 리스트 (ordered)
+ #<ul> : 순서없는 리스트 (unorderd)
+ #<li> 리스트
+ ex) <ol>
+	<li></li>
+	<li></li>
+      </ol>
+ ex) <ul>
+	<li></li>
+	<li></li>
+      </ul>
+ #<!doctype html> 
+ #<html></html>
+ #<head></head>
+ #<title></title> : 본문의 제목 설명
+ #<meta charset = "utf-8"> : utf-8 방식으로 저장되어있는걸 설명
+ #<body></body>
+ 
+ -태그의 제왕
+ <a> : 링크
+ ex)<a href="링크" target="_blank" title="sdfsd"></a>
+ ->간단한 링크 웹 페이지 만들기
+
+ -Internet : TCP/IP 기반의 네트워크가 세계적으로 확대되어 연결된 네트워크들의 네트워크를 의미합니다.
+ -WEB : 웹은 HTML이라는 문서 형태와 HTTP라는 문서 전송 프로토콜, URL로 문서의 위치를 표시하는 시스템을 말합니다
+ 
+-인터넷이 동작하는 기본원리
+ 컴퓨터 2대가 있어야함
+ 1대 web Browser / 1대 web Server
+ web browser   request ->   web server
+ index.html      <-response  index.html
+ 
+-web hosting  - github page
+ static web hosting 
+-web server - 
+-http : Hyper Text Transfer Protocol
+
+23강까지
+서버,클라이언트
+ip주소
+ip주소알아내는법
+두대의 컴퓨터가 통신하는법
+
+<코드삽입>
+-disqus를 사용해서 댓글기능 추가!!
+-tawk.to를 사용해서 방문자와 채팅기능 추가!!(챗봇 + 어드민페이지)
+ =>firebase 와 흡사
+-구글 애널리틱스로 관리자페이지 구현
+
+html이 중요한이유
+ 웹접근성, 웹표준
+ accessibility
+ 비즈니스, 휴머니즘에서 중요함
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ

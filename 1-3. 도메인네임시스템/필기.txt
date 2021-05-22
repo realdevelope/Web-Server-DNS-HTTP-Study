@@ -1,0 +1,42 @@
+12/1(화) - 처음부터 다시 공부
+
+<3. 도메인 네임 시스템 DNS>
+ -host : 인터넷에 연결된 장비 한대 
+ -ip : host와 host와 통신을 하기위한 주소
+ -domain : 호스트의 도메인 이름을 호스트의 네트워크 주소로 바꾸거나
+               그 반대의 변환을 수행할 수 있도록 하기 위해 개발
+	  (즉 클라이언트가 보기 쉬운 주소로 바꿔줌)
+ -hosts 를 바꾸는법
+ -security 
+ ->피싱
+     https 의 s는 시큐어의 약자로서 즉 보안이 http보다 뛰어남
+ -domain의 작동방법
+ -public DNS
+  ->1.1.1.1 
+ -dns internal
+ -dns 원리
+ -도메인 이름의 구조
+ ->blog.naver.com.
+    blog: sub  
+    naver : second_level
+    com :  top_level
+    . : root
+    =>상위레벨은 하위레벨의 주소를 알고있어야한다(바로아래만)
+    =>모든 레벨은 root 을 알고있다
+  
+ -DNS register
+ -dns 이름등록 과정과 원리
+ -nslookup : dns서버로부터 도메인네임이나 ip주소 매핑 등 여러가지 정보를 얻음
+  ->type=ns : name 서버에 대한 정보
+  -> nslookup example.com  =  nslookup -type=example.com
+  -> 필요한정보를 알아내는것
+
+ -나의 도메인 이름 가지기
+  ->freenom 으로 1년간 dns 변경 무료(카페24)
+
+ -DNS record & CNAME
+  ->DNS record : DNS 상에서 도메인에 관한 설정을 하기 위해 사용되는 일련의 문자들
+  ->cname레코드 : 도메인에 다른 이름을 부여하는 방식(별칭)
+ 
+ -Domain Name Mapping
+  ->깃허브에 도메인 연결 하기    

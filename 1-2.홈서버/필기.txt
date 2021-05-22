@@ -1,0 +1,21 @@
+<12/1(화)> - 처음부터 다시 공부
+
+2. 생활코딩 - Home Server
+ 
+ -공유기(router) 작동방법 (lan,wan)과 사설주소,공개주소
+ -NAT(network address translation) :  은 IP 패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술이다. 
+ -cmd -> ifconfig : ip주소 
+             route : 게이트웨이주소
+ 
+ -클라이언트 pc를 서버로 사용할시
+  ->port forwarding 
+    형식 : url:[포트번호]
+            ex)192.18.0.1:80
+ -dynamic ip address
+  ->ip임대처럼 계쏙 ip주소가 바뀜	 
+ -static ip address
+  ->ip고정 (2~3만원듬)
+ -dhcp(dysamic host configuration protocal)
+  ->네트워크 안에 컴퓨터에 자동으로 네임 서버주소, ip주소,
+     게이트웨이 주소를 할당해주는 것을 의미 (일정기간 임대)
+ =>ip를 이용해서 서버에 접근하는 방법을 공부!
